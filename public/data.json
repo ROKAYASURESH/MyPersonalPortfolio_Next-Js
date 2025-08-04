@@ -1,0 +1,196 @@
+{
+	"profile": {
+		"name": "Your Name",
+		"bio": "A passionate developer with expertise in web technologies.",
+		"profileImage": "/images/profile.jpg"
+	},
+	"my_skill": [
+		{
+			"title": "HTML",
+			"Percentages": "75%",
+			"width": "75%"
+		},
+		{
+			"title": "CSS",
+			"Percentages": "65%",
+			"width": "65%"
+		}
+	],
+	"service": [
+		{
+			"id": 1,
+			"serv": "responsive",
+			"icon": "FaChrome",
+			"heading": "Responsive website",
+			" paragraphs": "Web design is the process of creating visually appealing and user-friendly websites and web applications that involves a combination of graphic design, user experience (UX) design, and technical skills. It requires the use of various tools such as HTML, CSS, JavaScript and design software to create the layout, visual appearance, and functionality of a website.",
+			" paragraph": "Creating dynamic changes to the appearance of a website depending on the screen size and orientation",
+			"Button": "Learn More",
+			"Project": "/images/1image.png"
+		},
+		{
+			"id": 2,
+			"icon": "FaGratipay",
+			"serv": "ecomerces",
+			"heading": "Ecommerce website",
+			" paragraphs": "Graphic design is the art and practice of creating visual content to communicate information and ideas to an audience. It involves the use of typography, imagery, and color to create designs that are both aesthetically pleasing and effective in conveying a message. Graphic designers use a variety of tools and techniques, including illustration, photography, and digital software such as Adobe Illustrator and Photoshop, to create their designs.",
+			" paragraph": "Allows you to sell tangible goods or digital products or services online a website based a website based",
+			"Button": "Learn More",
+			"Project": "/images/1image.png"
+		},
+		{
+			"id": 3,
+			"icon": "FaAndroid",
+			"serv": "custom",
+			"heading": "Custom website",
+			" paragraphs": "Android development is the process of creating mobile applications for the Android operating system. It involves using the Java or Kotlin programming languages and the Android software development kit (SDK) to create apps that can run on a wide range of devices, including smartphones and tablets. Android developers use a variety of tools and technologies to create and test their apps, such as Android Studio.",
+			" paragraph": "Creating a website based on the user’s requirement or unique to the brand a website based a website based",
+			"Button": "Learn More"
+		}
+	],
+	"portfolio": [
+		{
+			"id": 4,
+			"Project": "/images/1image.png",
+			"Pheading": "Bootstrap",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>"
+		},
+		{
+			"id": 5,
+			"Project": "portfolio",
+			"Pheading": "Portfolio",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>"
+		},
+		{
+			"id": 5,
+			"Project": "Hotel ",
+			"Pheading": "Hotel",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>"
+		},
+		{
+			"id": 1,
+			"Project": "ecomerce,",
+			"Pheading": "Professional",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>",
+			"URL": "https://ismt.edu.np/"
+		},
+		{
+			"id": 3,
+			"Project": "bootstrap",
+			"Pheading": "Bootstrap",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>"
+		},
+		{
+			"id": 5,
+			"Project": "Portfolio2",
+			"Pheading": "Library",
+			"PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Pincon": "<FaLink/>"
+		}
+	],
+	"team": [
+		{
+			"id": 1,
+			"icon": "kc",
+			"heading:": "KSHITTIZ CHAUDARY",
+			"paragraph:": "Mobile DEVELOPER",
+			"Button": "More Detail",
+			"About": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.",
+			"MainSkill": "Main Skill",
+			"Experience": "Experience",
+			"Education": "Education",
+			"SEE": "Amar Jyoti Secondary School",
+			"Higher": "Triton International Collage",
+			"Bachelor": "International School of Management & Technology, Kathmandu ",
+			"HTMLtitle": "HTML",
+			"HTMLpercentages": "90%",
+			"HTMLwidth": "80%",
+			"CSStitle": "CSS",
+			"CSSPercentages": "70%",
+			"CSSwidth": "60%",
+			"Fluttortitle": "Flutter",
+			"FluttorPercentages": "80%",
+			"Fluttorwidth": "70%",
+			"WorkExp": "No work Experence"
+		},
+		{
+			"id": 2,
+			"icon": "Imag",
+			"heading:": "RAHUL KUMAR THAKUR",
+			"paragraph:": "WEB DEVELOPER",
+			"Button": "More Detail",
+			"About": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.",
+			"MainSkill": "Main Skill",
+			"Experience": "Experience",
+			"Education": "Education",
+			"SEE": "Shree Siddhi Vinayak English Boarding School. Kalaiya, Bara",
+			"Higher": "Hetauda School of Management and Social Science, Hetauda",
+			"Bachelor": "International School of Management & Technology, Kathmandu ",
+			"HTMLtitle": "HTML",
+			"HTMLpercentages": "65%",
+			"HTMLwidth": "65%",
+			"CSStitle": "CSS",
+			"CSSPercentages": "50%",
+			"CSSwidth": "50%",
+			"Fluttortitle": "flutter",
+			"FluttorPercentages": "30%",
+			"Fluttorwidth": "30%",
+			"WorkExp": "work Experence",
+			"Linkedin": "https://www.linkedin.com/in/rahul-kumar-thakur-009226216/",
+			"message": "http://m.me/Devrahul2003",
+			"Whatsapp": "https://wa.me/9779821810341?text=Hi%20There!'"
+		},
+		{
+			"id": 3,
+			"icon": "Ima",
+			"heading:": "BIGRAJ SUNUWAR",
+			"paragraph:": "GRAPHIC DESIGNER",
+			"Button": "More Detail",
+			"About": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.",
+			"MainSkill": "Main Skill",
+			"Experience": "Experience",
+			"Education": "Education",
+			"SEE": " ❤️‍🔥 💟",
+			"Higher": " 🥇 🥇🥇🥇",
+			"Bachelor": "International School of Management & Technology, Kathmandu ",
+			"HTMLtitle": "HTML",
+			"HTMLpercentages": "50%",
+			"HTMLwidth": "50%",
+			"CSStitle": "CSS",
+			"CSSPercentages": "40%",
+			"CSSwidth": "40%",
+			"Fluttortitle": "Graphic Design",
+			"FluttorPercentages": "70%",
+			"Fluttorwidth": "70%",
+			"WorkExp": "work Experence in Graphic Design"
+		},
+		{
+			"id": 4,
+			"icon": "Nikesh",
+			"heading:": "Nikesh Deula",
+			"paragraph:": "Graphic Designar",
+			"Button": "More Detail",
+			"About": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos temporibus, voluptatibus ut enim odit ipsum tempore rerum, quasi et itaque necessitatibus sunt? Ex iste odit, non officia unde itaque. Repellat.",
+			"MainSkill": "Main Skill",
+			"Experience": "Experience",
+			"Education": "Education",
+			"SEE": "Kathmadnu seconday",
+			"Higher": "CCRC college",
+			"Bachelor": "International School of Management & Technology, Kathmandu ",
+			"HTMLtitle": "HTML",
+			"HTMLpercentages": "80%",
+			"HTMLwidth": "80%",
+			"CSStitle": "CSS",
+			"CSSPercentages": "60%",
+			"CSSwidth": "60%",
+			"Fluttortitle": "Flutter",
+			"FluttorPercentages": "70%",
+			"Fluttorwidth": "70%",
+			"WorkExp": "work on Graphic Design"
+		}
+	]
+}

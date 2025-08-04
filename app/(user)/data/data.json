@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "Project": "/images/1image.png",
+    "Pheading": "Bootstrap",
+    "PParagraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "Pincon": "FaLink",
+	"details": {
+      "features": "User authentication, product search, payment integration",
+      "tech": "Next.js, React, Tailwind CSS",
+      "screenshots": ["/images/project1-screen1.jpg", "/images/project1-screen2.jpg"]
+    }
+  },
+  {
+    "id": 2,
+    "Project": "/images/2image.png",
+    "Pheading": "React Project",
+    "PParagraph": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+    "Pincon": "FaGithub",
+	"details": {
+      "features": "User authentication, product search, payment integration",
+      "tech": "Next.js, React, Tailwind CSS",
+      "screenshots": ["/images/project1-screen1.jpg", "/images/project1-screen2.jpg"]
+    }
+  }
+]
