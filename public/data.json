@@ -2,7 +2,9 @@
 	"profile": {
 		"name": "Your Name",
 		"bio": "A passionate developer with expertise in web technologies.",
-		"profileImage": "/images/profile.jpg"
+		"profileImage": "/images/profile.jpg",
+		"skills": ["Developer", "Designer", "Freelancer"],
+		"roles": ["🔺Web Developer🔺", "🔺UI/UX Designer🔺", "🔺Freelancer🔺"]
 	},
 	"my_skill": [
 		{
