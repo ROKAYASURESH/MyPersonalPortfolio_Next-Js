@@ -51,9 +51,9 @@ export default function Home() {
 
 						<div className="col-lg-6 order-1 order-lg-2 ssr">
 							<div className="animated">
-								<Image src='/images/suresh.png' width={100} height={100} alt='' />
+								<Image src={data.rocicon || '/images/default-image.gif'} width={100} height={100} alt='ffd' />
 							</div>
-							<Image src='/images/IMG_3682.jpg' alt='' width={100} height={100} />
+							<Image src={data.profileImage || '/images/default-image.gif'} alt='' width={100} height={100} />
 							<div className="text"><h2> 🔺Frontent Developer🔺</h2></div>
 						</div>
 
@@ -71,8 +71,12 @@ export default function Home() {
 				<div className='right' >
 					<div className='img-container'>
 						<div className='img-stack top'>
-							{/* <img src={abs} alt='' title="suresh" /> */}
-							<Image src='/images/myphotoss.jpg' alt=' ' width={100} height={100} />
+							<Image
+								src={data.image1 || '/images/default-image.gif'}
+								width={100}
+								height={100}
+								alt="ffd"
+							/>
 						</div>
 
 						<div className='img-stack bottom'>
@@ -91,24 +95,23 @@ export default function Home() {
 							<div className="address details">
 								<i className="fas fa-map-marker-alt" />
 								<div className="topic">Address</div>
-								<div className="text-one">Koteshwor, 32</div>
-								<div className="text-two">Kathmandu </div>
+								<div className="text-one">{data.address}</div>
 							</div>
 							<div className="phone details">
 								<i className="fas fa-phone-alt" />
 								<div className="topic">Phone</div>
-								<div className="text-one">-977 9869504717</div>
+								<div className="text-one">{data.phone}</div>
 							</div>
 							<div className="email details">
 								<i className="fas fa-envelope" />
 								<div className="topic">Email</div>
-								<div className="text-one">rokayasuresh028@gmail.com</div>
-								<div className="text-two">sureshrokay@ismt.edu.np</div>
+								<div className="text-one">{data.email}</div>
+								<div className="text-two">{data.opt_email}</div>
 							</div>
 						</div>
 						<div className="right-side">
 							<div className="topic-text">Send us a message</div>
-							<p style={{ fontSize: '1.5rem' }}>If you have any work from me or any types of quries , you can send me message from here. It's my pleasure to help you.</p>
+							<p style={{ fontSize: '1.5rem' }}>{data.h_contact_pra}</p>
 							<form action="#">
 								<div className="input-box">
 									<input type="text" placeholder="Enter your name" />
