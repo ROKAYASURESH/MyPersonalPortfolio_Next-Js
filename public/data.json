@@ -2,14 +2,14 @@
 	"profile": {
 		"name": "Suresh Rokaya",
 		"bio": "A passionate developer with expertise in web technologies.",
-		"phone":"986950###",
-		"email":"sureshrokaya761@gmail.com",
-		"opt_email":"rokayasuresh028@gmail.com",
-		"address":"Balkumari 32 Kathmandu",
+		"phone": "986950###",
+		"email": "sureshrokaya761@gmail.com",
+		"opt_email": "rokayasuresh028@gmail.com",
+		"address": "Balkumari 32 Kathmandu",
 		"profileImage": "/images/IMG_3682.jpg",
-		"rocicon":"/images/suresh.png",
-		"image1":"/images/myphotoss.jpg",
-		"cv":"/images/MY_RESUME.pdf",
+		"rocicon": "/images/suresh.png",
+		"image1": "/images/myphotoss.jpg",
+		"cv": "/images/MY_RESUME.pdf",
 		"skills": [
 			"Developer",
 			"Designer",
@@ -20,9 +20,7 @@
 			"🔺UI/UX Designer🔺",
 			"🔺Freelancer🔺"
 		],
-		"h_contact_pra":"If you have any work from me or any types of quries , you can send me message from here. It's my pleasure to help you."
-		
-		
+		"h_contact_pra": "If you have any work from me or any types of quries , you can send me message from here. It's my pleasure to help you."
 	},
 	"fotdata": {
 		"paragraph": "As a web developer, we have a strong team understanding of web technologies and the ability to create and maintain websites and web applications. We have a good grasp of programming languages such as HTML, CSS, and JavaScript, as well as experience with frameworks and libraries like Bootstrap, React, and React JS.",
@@ -33,21 +31,71 @@
 			"Service",
 			"Portfolio"
 		],
-		"copy_right":"Copyright © 2023 by Suresh Rokay"
-		
+		"copy_right": "Copyright © 2023 by Suresh Rokay"
 	},
-	"my_skill": [
-		{
-			"title": "HTML",
-			"Percentages": "75%",
-			"width": "75%"
-		},
-		{
-			"title": "CSS",
-			"Percentages": "65%",
-			"width": "65%"
+	"about": {
+		"about_pra": "As a web developer, I have a strong understanding of web technologies and the ability to create and maintain websites and web applications. I have a good grasp of programming languages such as HTML, CSS, and JavaScript, as well as experience with frameworks and libraries like Bootstrap , React, and React JS .",
+		"my_skill": [
+			{
+				"title": "HTML",
+				"Percentages": "75%",
+				"width": "75%"
+			},
+			{
+				"title": "CSS",
+				"Percentages": "65%",
+				"width": "65%"
+			}
+		],
+		"experience": [
+			{
+				"role": "Full Stack Developer",
+				"company": "XYZ Startup",
+				"duration": "Jan 2024 - Present",
+				"responsibilities": [
+					{
+						"technology": "Python",
+						"tasks": [
+							"Developed data processing scripts.",
+							"Built RESTful APIs."
+						]
+					},
+					{
+						"technology": "Django",
+						"tasks": [
+							"Created database models and APIs with Django REST Framework.",
+							"Implemented user authentication."
+						]
+					},
+					{
+						"technology": "React.js",
+						"tasks": [
+							"Built dynamic UIs with React hooks.",
+							"Integrated APIs for real-time data."
+						]
+					},
+					{
+						"technology": "Next.js",
+						"tasks": [
+							"Developed SEO-friendly apps with SSG.",
+							"Created custom API routes."
+						]
+					}
+				]
+			}
+		],
+		"education":{
+			"school":"Sunlight Public School",
+			"plus2":{
+				"name":"Little Buddha Academy",
+				"duration":"2019- 2021"
+			},
+			"bachelor":{
+				"name":"Universtiy of Sunderland",
+				"duration":"2021 - Present"
+			}
 		}
-	],
+	},
 	"service": [
 		{
 			"id": 1,

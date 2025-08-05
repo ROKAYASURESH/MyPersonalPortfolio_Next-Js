@@ -29,10 +29,10 @@ export default function Home() {
 
 	return (
 		<>
-			<section className='back'>
-				<div className="container Home">
-					<div className="row">
-						<div className="col-lg-6 infor skr ">
+			<section className='home-section' >
+				<div className="container">
+					<div className="row home-main">
+						<div className="col-lg-6 home-info">
 							<h3>WELCOME TO MY WEBSITE</h3>
 							<h1>I'm {data.name} <br />
 								<span className='tex' > {text}</span>
@@ -40,8 +40,8 @@ export default function Home() {
 								based in Nepal
 							</h1>
 							<p>{data.bio}</p>
-							<div className="homebtn">
-								<button className='btn1 dn'><a href='/images/MY RESUME.pdf' download="Suresh Rokaya CV">Get Resume <span style={{ fontSize: "20px" }}><FaDownload /></span>
+							<div className="home-btn">
+								<button className='btn1 dn'><a href='/images/MY_RESUME.pdf' download="Suresh Rokaya CV">Get Resume <span style={{ fontSize: "20px" }}><FaDownload /></span>
 								</a>
 								</button>
 								<button className=' btn1 at'> <Link href="/contact">Hire me <span style={{ fontSize: "20px", padding: '5px' }}></span> </Link></button>
@@ -51,9 +51,9 @@ export default function Home() {
 
 						<div className="col-lg-6 order-1 order-lg-2 ssr">
 							<div className="animated">
-								<Image src={data.rocicon || '/images/default-image.gif'} width={100} height={100} alt='ffd' />
+								<Image className='img-fluid animated' src={data.rocicon || '/images/default-image.gif'} width={100} height={100} alt='ffd' />
 							</div>
-							<Image src={data.profileImage || '/images/default-image.gif'} alt='' width={100} height={100} />
+							<Image className='myphoto' src={data.profileImage || '/images/default-image.gif'} alt='' width={100} height={100} />
 							<div className="text"><h2> 🔺Frontent Developer🔺</h2></div>
 						</div>
 

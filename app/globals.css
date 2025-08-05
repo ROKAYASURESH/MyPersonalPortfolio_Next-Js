@@ -1,42 +1,241 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+html {
+	font-size: 62.5%;
+	/* user-select: none; */
+
+
+}
+
+::selection {
+	background-color: rgb(85, 20, 170);
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+
+/* HEADER */
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(23, 4, 44, 0.4);
+	z-index: 10;
+	border-bottom: 1px solid white;
+}
+
+/* ...........when scrol then bg color show....... */
+.header-bg {
+	background-color: #000;
+	transition: 0.5s;
+	color: rebeccapurple !important;
+	box-shadow: 0 0 10px white;
+}
+
+.navbar {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar .container {
+	position: sticky;
+	top: 0;
+}
+
+
+.container .navbar-brand {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.container .navbar-brand img {
+	margin-right: .6rem;
+	height: 5rem;
+	width: 5rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	color: white;
+	font-size: 1.7rem;
+	margin-right: 2rem;
+}
+
+h3 {
+	background: linear-gradient(red, rgb(243, 243, 247));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* HOME PAGE */
+.home-section {
+	/* background-image: linear-gradient(to right, black, red, green); */
+	background-image: url('/images/image12221.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.home-main {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+
+}
+
+.home-main .home-info h3 {
+	margin-bottom: 3rem;
+}
+
+.home-main .home-info h1 {
+	font-size: 6rem;
+	color: black;
+	font-weight: 900;
+	font-family: 'Playfair Display', serif;
+}
+
+.home-main .home-info p {
+	font-size: 2rem;
+	color: white;
+}
+
+.home-main .home-info .tex {
+	color: white;
+	font-size: 35px;
+}
+
+.home-main .home-info .home-btn .btn1 {
+	background-color: transparent;
+	padding: 2px 15px;
+	border: 3px solid transparent;
+	outline: 2px solid white;
+	font-size: 2rem;
+	margin-top: 50px;
+	border-radius: 50px;
+	box-shadow: inset 0px 0px 20px white;
+	transition-timing-function: ease-in-out;
+	transition-duration: .3s;
+	margin-left: 30px;
+
+}
+
+.home-main .home-info .home-btn .btn1:hover {
+	transform: scale(1.1) translateY(-5px);
+}
+
+
+.home-main .home-info .home-btn a {
+	color: white;
+	text-decoration: none;
+
+}
+
+/* image secton */
+.myphoto {
+	width: 40rem;
+	height: 42rem;
+	position: absolute;
+	bottom: 8rem;
+	right: 15rem;
+	animation: opc 1s linear 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+	box-shadow: 0px 0px 30px rebeccapurple, 40px 0px 200px rebeccapurple inset, 0px 10px 10px red;
+	border: 1px solid white;
+	border-radius: 50%;
+	opacity: 0;
+}
+@keyframes opc {
+
+	0% {
+		box-shadow: 0px 0px 30px rebeccapurple, 200px 0px 200px rebeccapurple inset, 0px 10px 10px red;
+
+	}
+
+	25% {
+		box-shadow: 0px 0px 30px rebeccapurple, 280px 0px 200px rebeccapurple inset, 0px 10px 10px red;
+	}
+
+	50% {
+		box-shadow: 0px 0px 30px rebeccapurple, 350px 0px 200px rebeccapurple inset, 0px 10px 10px red;
+
+	}
+
+	75% {
+		box-shadow: 0px 0px 30px rebeccapurple, 400px 0px 200px rebeccapurple inset, 0px 10px 10px red;
+
+	}
+
+	100% {
+		opacity: 1;
+		/* box-shadow: 0px 0px 30px rebeccapurple, 400px 0px 200px rebeccapurple inset, 0px 10px 10px red ; */
+
+	}
+
+}
+
+.animated img {
+  margin-top: 100px;
+  height: 200px;
+  position: absolute;
+  bottom: 640px;
+  right: 250px;
+  animation: updown 2s ease-in-out alternate-reverse both;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  overflow: hidden;
+}
+
+
+@keyframes updown {
+  0% {
+    transform: translateY(-300px);
+  }
+
+  100% {
+    transform: translateY(520px);
   }
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+
+.text {
+	position: absolute;
+	opacity: 0;
+	bottom: 100px;
+	right: 50px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.text h2 {
+	font-size: 2.5rem;
 }
