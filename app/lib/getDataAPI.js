@@ -1,7 +1,5 @@
 
 export async function getDataAPI() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
-    // cache: 'force-cache',
-  });
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`);
   return res.json();
 }
