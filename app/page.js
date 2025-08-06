@@ -50,11 +50,11 @@ export default function Home() {
 						</div>
 
 						<div className="col-lg-6 order-1 order-lg-2 ssr">
-							<div className="animated">
+							{/* <div className="animated">
 								<Image className='img-fluid animated' src={data.rocicon || '/images/default-image.gif'} width={100} height={100} alt='ffd' />
 							</div>
 							<Image className='myphoto' src={data.profileImage || '/images/default-image.gif'} alt='' width={100} height={100} />
-							<div className="text"><h2> 🔺Frontent Developer🔺</h2></div>
+							<div className="text"><h2> 🔺Frontent Developer🔺</h2></div> */}
 						</div>
 
 					</div>
@@ -64,23 +64,25 @@ export default function Home() {
 			<div className='about'>
 				<div className='left'>
 					<h1 style={{ color: 'white', fontSize: '4rem' }}>Who Am I?</h1>
-					<p style={{ color: 'white', fontSize: '2rem' }}> I am react Frontend developer. I create responsive secure website for my clinet</p>
-					<Link href='/Contact'  ><button className='btn' style={{ color: 'white', fontSize: '2rem', background: 'blue' }}>Contact</button></Link>
+					<p style={{ color: 'white', fontSize: '2rem' }}> I am Suresh Rokay, a Software Developer with a BSc in IT. I specialize in full-stack development using Django, React, and Next.js, with  <strong>One Year Plus </strong>experience in building responsive web applications. Skilled in Bootstrap/Tailwind CSS and Redux, I create intuitive e-commerce platforms and portfolios. Explore my projects or connect for opportunities.</p>
+					<Link href='/about'  ><button className='btn' style={{ color: 'white', fontSize: '2rem', background: 'blue' }}>More..</button></Link>
 				</div>
 
 				<div className='right' >
 					<div className='img-container'>
 						<div className='img-stack top'>
+
+							<Image src="/images/IMG_3682.jpg" width={100} height={100} alt='' />
+
+						</div>
+
+						<div className='img-stack bottom'>
 							<Image
 								src={data.image1 || '/images/default-image.gif'}
 								width={100}
 								height={100}
 								alt="ffd"
 							/>
-						</div>
-
-						<div className='img-stack bottom'>
-							<Image src="/images/myphotoss (2).jpg" width={100} height={100} alt='' />
 						</div>
 
 					</div>
@@ -97,7 +99,7 @@ export default function Home() {
 								<div className="topic">Address</div>
 								<div className="text-one">{data.address}</div>
 							</div>
-							<div className="phone details">
+							<div className="phone details" style={{ textAlignc: "start" }}>
 								<i className="fas fa-phone-alt" />
 								<div className="topic">Phone</div>
 								<div className="text-one">{data.phone}</div>
